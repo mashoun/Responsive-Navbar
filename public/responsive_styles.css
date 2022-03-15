@@ -1,11 +1,10 @@
+/* 13 inch */
 @media (max-width:1200px){
     nav{
-        width: 600px;
-    }
-    .join-group{
-        width: 150px;
+        width: 700px;
     }
 }
+/* Tablets */
 @media (max-width:1000px){
 
     nav > ul{
@@ -19,24 +18,34 @@
         margin: 0px 1rem;
     }
 }
-@media (max-width:575px){
+/* large mobile screen */
+@media (max-width:650px){
 
     header > section{
-        width: 300px ;
-        font-size: .7rem;
+        width: 100% ;
+        font-size: .8rem;
     }
-    .join-group{
+    nav{
+        display: none;
+    }
+    header > section >h1{
+        width: 85%;
+        text-align: center;
+    }
+}
+/* medium mobile screen */
+@media (max-width:320px){
+
+    header > section{
+        width: 100% ;
         font-size: .7rem;
     }
 }
-@media (max-width:450px){
+/* small mobile screens */
+@media (max-width:280px){
 
     header > section{
-        width: 250px ;
-        font-size: .6rem;
-    }
-    
-    .join-group{
-        font-size: .6rem;
+        width: 100% ;
+        font-size: .65rem;
     }
 }
