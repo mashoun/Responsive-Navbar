@@ -1,0 +1,42 @@
+@media (max-width:1200px){
+    nav{
+        width: 600px;
+    }
+    .join-group{
+        width: 150px;
+    }
+}
+@media (max-width:1000px){
+
+    nav > ul{
+       display: none;
+    }
+    nav{
+        width: fit-content;
+        justify-content: flex-end;
+    }
+    .join-group{
+        margin: 0px 1rem;
+    }
+}
+@media (max-width:575px){
+
+    header > section{
+        width: 300px ;
+        font-size: .7rem;
+    }
+    .join-group{
+        font-size: .7rem;
+    }
+}
+@media (max-width:450px){
+
+    header > section{
+        width: 250px ;
+        font-size: .6rem;
+    }
+    
+    .join-group{
+        font-size: .6rem;
+    }
+}
