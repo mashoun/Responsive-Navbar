@@ -17,6 +17,9 @@
     .join-group{
         margin: 0px 1rem;
     }
+    .menu{
+        display: flex;
+    }
 }
 /* large mobile screen */
 @media (max-width:650px){
